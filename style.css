@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainDiv {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    border-style: solid;
+    border-color: darkblue;
+}
+
+.div1 {
+    background-color: darkgreen;
+    border-radius: 2px;
+    margin: 20px;
+    font-family: cursive;
+}
+
+.div1:hover {
+    background-color: #7f8c8d
+}
